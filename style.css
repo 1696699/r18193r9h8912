@@ -1,0 +1,42 @@
+#sketchRight{
+    font-size: medium;
+    margin-left: 40px;
+    float: left;
+}
+#timer{
+    font-size: medium;
+    float: right;
+    margin-right: 40px;
+}
+body{
+    background-color: lightgreen;
+    text-align: center;
+}
+h1{
+    color: rgb(232, 234, 236);
+    background-color: black;
+    font-weight: bold;
+}
+#showSketch{
+    float: right;
+}
+p{
+    font-size: 25px;
+    color: rgb(232, 234, 236);
+}
+canvas{
+    border: 5px solid rgb(232, 234, 236);
+    border-radius: 20px;
+    animation-name: borderAnimation;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes borderAnimation{
+    from{
+        box-shadow: 1px 1px 38px black;
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(158, 135, 135);
+    }
+}
